@@ -1,0 +1,30 @@
+.auth-wrapper {
+    width: 100%;
+    height: 100%;
+
+    .auth-header {
+        width: 100%;
+        height: 50px;
+        padding: 5px 35px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        top: 0;
+        left: 0;
+
+        .brand {
+            float: left;
+            color: rgb(255, 0, 0);
+        }
+    }
+
+    .auth-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(135deg, #5b696a 0, #565e5d 16.67%, #4c4c4c 33.33%, #3f3638 50%, #312126 66.67%, #25121b 83.33%, #1f0315 100%);
+    }
+}
+

@@ -1,0 +1,37 @@
+.principal {
+    margin-top: 100px;
+}
+
+.question-wrapper {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+
+    .question-number {
+        color: snow;
+        margin-left: 15px;
+    }
+}
+
+.buttons {
+    text-align: center;
+
+    button {
+        background-color: #ff0000;
+        font-family: "Quicksand";
+        padding: 8px 15px;
+        font-weight: bold;
+        color: #fff;
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        margin: 20px 5px;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.85;
+        }
+    }
+}

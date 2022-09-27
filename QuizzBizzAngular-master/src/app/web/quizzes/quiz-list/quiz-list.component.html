@@ -1,0 +1,19 @@
+<div *ngIf="quizzes != null" class="quizzes-container">
+    <h2>Encuestas:</h2>
+    <div *ngFor="let quiz of quizzes" class="quiz-item">
+        <div>
+            <div>
+                <h3>{{quiz.nombre}}</h3>
+            </div>
+            <div>
+                <p>{{quiz.description}}</p>
+            </div>
+            <div class="actions">
+                <span>{{quiz.questions_count}} Preguntas</span>
+                <a [routerLink]="['/quizzes', quiz.slug]">
+                    <button class="start-quiz-button">Empezar</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
